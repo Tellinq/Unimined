@@ -59,13 +59,6 @@ data class VersionData(
             val arguments: List<Argument> = listOf(
                 Argument(
                     listOf(
-                        Rule("allow", OperatingSystem("osx", null, null), mapOf())
-                    ), listOf(
-                        "-XstartOnFirstThread"
-                    )
-                ),
-                Argument(
-                    listOf(
                         Rule("allow", OperatingSystem("windows", null, null), mapOf())
                     ), listOf(
                         "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump"
